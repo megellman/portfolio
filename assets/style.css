@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    background-color: var(--white);
 }
 
 header,
@@ -59,6 +60,4 @@ nav a {
 
 .about-me {
     height: 500px;
-    background-color: var(--white);
-    padding-top: 20px;
 }
