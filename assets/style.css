@@ -13,6 +13,7 @@ body {
     background-color: var(--white);
 }
 
+/* flex box attributes for whole page  */
 header,
 .project {
     display: flex;
@@ -26,11 +27,28 @@ header,
 }
 
 .right {
-    background-color:var(--green);
     width: 100%;
     padding: 0;
 }
 
+/* colors for left-right sections */
+.links {
+    background-color:var(--green);
+}
+
+.top .left {
+    background-color: var(--pink);
+}
+
+.middle .left {
+    background-color: var(--yellow);
+}
+
+.bottom .left {
+    background-color: var(--dark-pink);
+}
+
+/* header section  */
 h1{
     text-align: center;
     font-size: 3em;
@@ -58,6 +76,7 @@ nav a {
     font-size: 3em;
 }
 
+/* main section  */
 .about-me {
     height: 500px;
 }
