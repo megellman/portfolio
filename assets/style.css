@@ -2,15 +2,19 @@
     --green: #84A59D;
     --pink: #F5CAC3;
     --white: #F7EDE2;
+    --lighter-white: #f9f5f1;
+    --light-green: #BEC9C0;
+    --light-pink: #F6DCD3;
+    --light-yellow: #F7D5A1;
     --yellow: #F6BD60;
-    --dark-pink: #F28482;
+    --dark: #BB9590;
+    --lighter-dark: #d6bebb;
 }
 
 body {
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: var(--white);
 }
 
 /* flex box attributes for whole page  */
@@ -28,19 +32,19 @@ header,
 
 /* colors for left-right sections */
 .links {
-    background-color:var(--green);
+    background-color:var(--lighter-dark);
 }
 
 .top .left {
-    background-color: var(--pink);
+    background-color: var(--light-pink);
 }
 
 .middle .left {
-    background-color: var(--yellow);
+    background-color: var(--light-green);
 }
 
 .bottom .left {
-    background-color: var(--dark-pink);
+    background-color: var(--light-yellow);
 }
 
 /* header section  */
@@ -55,7 +59,7 @@ img {
     display: block;
     width: 90%;
     margin: 0px auto;
-    border: solid 2px #e2d5c7;
+    border: solid 3px var(--white);
 }
 
 nav {
@@ -74,10 +78,12 @@ nav a {
 /* main section  */
 .about-me {
     height: 500px;
+    background-color: var(--white);
 }
 .about-me h2 {
-    margin-top: 50px;
-    margin-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
     text-align: center;
     font-size: 2em;
 }
@@ -93,5 +99,10 @@ section p {
     padding-right: 20px;
 }
 
-.project .right {
+@media screen and (min-width: 1140px) {
+    img {width: 510px}
+}
+
+@media  screen and (max-width) {
+    
 }
