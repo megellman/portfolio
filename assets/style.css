@@ -21,14 +21,9 @@ header,
     height: 500px;
 }
 
-.left {
-    padding: 0;
-    width: 100%;
-}
-
+.left,
 .right {
     width: 100%;
-    padding: 0;
 }
 
 /* colors for left-right sections */
@@ -79,4 +74,24 @@ nav a {
 /* main section  */
 .about-me {
     height: 500px;
+}
+.about-me h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.about-me p,
+section p {
+    margin: 25px 20px;
+}
+
+.project p {
+    text-align: start;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.project .right {
 }
