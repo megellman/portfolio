@@ -38,7 +38,7 @@ body {
     background-color: var(--light-pink);
 }
 
-.middle .left {
+.middle .right {
     background-color: var(--light-green);
 }
 
@@ -75,11 +75,11 @@ nav a {
 }
 
 /* main section  */
-.about-me {
+#about-me {
     height: 500px;
     background-color: var(--white);
 }
-.about-me h2 {
+#about-me h2 {
     text-align: center;
     font-size: 2em;
 }
@@ -91,21 +91,25 @@ p {
     padding-right: 20px;
 }
 
+.middle {
+    flex-direction: row-reverse;
+}
+
 @media screen and (min-width: 1140px) {
     img {width: 510px}
 }
 
 @media  screen and (max-width: 768px) {
-    header, .project {display: block;}
+    .flex-container {display: block;}
     .block {min-height: 400px;}
-    img {width: 50%;}
-    nav {display: flex; }
-    nav a {font-size: 2.2em;}
+    img {min-width: 381px; max-width: 381px;}
+    .links {display: flex; flex-direction: column; justify-content: center;}
+    nav a {font-size: 2.2em; line-height: 3em;}
 
     /* top/bottom margins zero */
-    .about-me h2 {margin-bottom: 0;}
+    #about-me h2 {margin-bottom: 0;}
     h1 {margin: 0, auto;}
     nav {margin-top: 0; row-gap: 0;}
-    .about-me p, section p {margin: 25px 0;}
-    .about-me h2 {margin-bottom: 0;}
+    #about-me p, section p {margin: 25px 0;}
+    #about-me h2 {margin-bottom: 0;}
 }
