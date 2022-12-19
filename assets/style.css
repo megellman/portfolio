@@ -30,7 +30,6 @@ body {
 }
 
 /* section colors */
-.links,
 #about-me {
     background-color:var(--lighter-dark);
 }
@@ -79,12 +78,13 @@ nav a {
     text-decoration: none;
     color: black;
     font-size: 3em;
+    opacity: 80%;
 }
 
 /* main section  */
 #about-me {
-    height: 500px;
     margin-top: -27px;
+    padding-bottom: 50px;
 }
 
 p {
@@ -113,6 +113,7 @@ footer a {
     font-size: 1em;
     text-align: center;
     margin: 10px 20px;
+    opacity: 80%;
 }
 
 #about-me h2,
@@ -131,8 +132,8 @@ footer a {
     img {min-width: 381px; max-width: 381px;}
     .links {display: flex; flex-direction: column; justify-content: center;}
     nav a {font-size: 2.2em; line-height: 3em;}
-    .whitespace {background-color: var(--white);}
-
+    #project3 {margin-top: -70px;}
+    footer a {font-size: 2em; display: block; line-height: 120px;}
     /* top/bottom margins zero */
     #about-me h2 {margin-bottom: 0;}
     h1 {margin: 0, auto;}
@@ -141,4 +142,8 @@ footer a {
     .links, .block {margin-bottom: -27px;}
     #cover-image {margin-top: -20px; margin-bottom: 0px;}
     h2 {padding-top: 10px;}
+
+    /* reassign colors  */
+    #project1, #project3 {background-color: transparent;}
+    #project2, #project4 {background-color: var(--light-pink);}
 }
