@@ -58,7 +58,7 @@ img {
     display: block;
     width: 90%;
     margin: 0px auto;
-    border: solid 3px var(--white);
+    border: solid 5px var(--white);
 }
 
 nav {
@@ -118,9 +118,10 @@ footer a {
     padding-top: 35px;
 }
 
-@media screen and (min-width: 1140px) {
-    img {width: 510px}
+@media screen and (min-width: 900px) {
+    img {margin-bottom: 10px;}
 }
+
 
 @media  screen and (max-width: 768px) {
     .flex-container {display: block;}
@@ -134,7 +135,7 @@ footer a {
     #about-me h2 {margin-bottom: 0;}
     h1 {margin: 0, auto;}
     nav {margin-top: 0; row-gap: 0;}
-    #about-me p, section p {margin: 25px 0; padding-top: 20px;}
+    #about-me p, section p {margin: 25px 0; padding-top: 15px;}
     .links, .block {margin-bottom: -27px;}
     footer .whitespace {margin-top: -100px;}
     #cover-image {margin-top: -20px; margin-bottom: 0px;}
