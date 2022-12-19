@@ -79,10 +79,6 @@ nav a {
     height: 500px;
     background-color: var(--white);
 }
-#about-me h2 {
-    text-align: center;
-    font-size: 2em;
-}
 
 p {
     margin-top: 15px;
@@ -94,6 +90,31 @@ p {
 .middle {
     flex-direction: row-reverse;
 }
+
+/* footer section */
+footer .right {
+    background-color: var(--lighter-dark);
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+footer {
+    flex-direction: row-reverse;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 3em;
+    display: grid;
+    row-gap: 50px;
+    justify-content: center;
+    margin-top: 100px;
+}
+
 
 @media screen and (min-width: 1140px) {
     img {width: 510px}
