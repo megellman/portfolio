@@ -36,20 +36,20 @@ body {
 }
 
 .links,
- #project3{
+ #project4{
     background-color: var(--light-pink);
 }
 
-#project1{
-    background-color: var(--light-green);
+#project2{
+    background-color: transparent;
 }
 
-#project2 {
-    background-color: var(--light-yellow);
+#project1 {
+    background-color: var(--light-pink);
 }
 
-#project4 {
-    background-color: var(--green);
+#project3 {
+    background-color: transparent;
 }
 
 
