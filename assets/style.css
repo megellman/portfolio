@@ -93,29 +93,30 @@ p {
 }
 
 /* footer section */
-footer .right {
-    background-color: var(--lighter-dark);
-}
-
 h2 {
     text-align: center;
     font-size: 2em;
 }
 
 footer {
-    flex-direction: row-reverse;
+    background-color: var(--lighter-dark);
+    margin-top: -27px;
 }
 
 footer a {
     text-decoration: none;
     color: black;
-    font-size: 3em;
-    display: grid;
-    row-gap: 50px;
-    justify-content: center;
-    margin-top: 100px;
+    font-size: 2em;
+    display: block;
+    text-align: center;
+    line-height: 90px;
+    margin-top: 50px;
 }
 
+#about-me h2,
+#contact-info h2 {
+    padding-top: 35px;
+}
 
 @media screen and (min-width: 1140px) {
     img {width: 510px}
