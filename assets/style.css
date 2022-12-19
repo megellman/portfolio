@@ -78,6 +78,7 @@ nav a {
 #about-me {
     height: 500px;
     background-color: var(--white);
+    margin-top: -27px;
 }
 
 p {
@@ -126,11 +127,15 @@ footer a {
     img {min-width: 381px; max-width: 381px;}
     .links {display: flex; flex-direction: column; justify-content: center;}
     nav a {font-size: 2.2em; line-height: 3em;}
+    .whitespace {background-color: var(--white);}
 
     /* top/bottom margins zero */
     #about-me h2 {margin-bottom: 0;}
     h1 {margin: 0, auto;}
     nav {margin-top: 0; row-gap: 0;}
-    #about-me p, section p {margin: 25px 0;}
-    #about-me h2 {margin-bottom: 0;}
+    #about-me p, section p {margin: 25px 0; padding-top: 20px;}
+    .links, .block {margin-bottom: -27px;}
+    footer .whitespace {margin-top: -100px;}
+    #cover-image {margin-top: -20px; margin-bottom: 0px;}
+    h2 {padding-top: 10px;}
 }
