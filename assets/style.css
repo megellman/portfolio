@@ -15,6 +15,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    background-color: var(--white);
 }
 
 /* flex box attributes for whole page  */
@@ -24,27 +25,33 @@ body {
     min-height: 460px
 }
 
-.left,
-.right {
+.block {
     width: 100%;
 }
 
-/* colors for left-right sections */
-.links {
+/* section colors */
+.links,
+#about-me {
     background-color:var(--lighter-dark);
 }
 
-.top .left {
+.links,
+ #project3{
     background-color: var(--light-pink);
 }
 
-.middle .right {
+#project1{
     background-color: var(--light-green);
 }
 
-.bottom .left {
+#project2 {
     background-color: var(--light-yellow);
 }
+
+#project4 {
+    background-color: var(--green);
+}
+
 
 /* header section  */
 h1{
@@ -77,7 +84,6 @@ nav a {
 /* main section  */
 #about-me {
     height: 500px;
-    background-color: var(--white);
     margin-top: -27px;
 }
 
@@ -86,10 +92,6 @@ p {
     margin-bottom: 15px;
     padding-left: 20px;
     padding-right: 20px;
-}
-
-.middle {
-    flex-direction: row-reverse;
 }
 
 /* footer section */
@@ -137,7 +139,6 @@ footer a {
     nav {margin-top: 0; row-gap: 0;}
     #about-me p, section p {margin: 25px 0; padding-top: 15px;}
     .links, .block {margin-bottom: -27px;}
-    footer .whitespace {margin-top: -100px;}
     #cover-image {margin-top: -20px; margin-bottom: 0px;}
     h2 {padding-top: 10px;}
 }
