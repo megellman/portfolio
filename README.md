@@ -12,6 +12,8 @@
 
 [Click here for Deployed Site](https://megellman.github.io/portfolio/)
 
+![](assets/portfolio-preview.gif)
+
 I created a professional portfolio webpage. On this page is a description about me, examples of my work, and information on how to contact me. I created this webpage to show future employers my work and to practice media responsive layouts. 
 
 ## Table of Contents 
