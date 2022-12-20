@@ -4,6 +4,22 @@
     --lighter-dark: #d6bebb;
 }
 
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #d6bebb;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #a89897;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #928988;
+}
+
 body {
     margin: 0;
     padding: 0;
