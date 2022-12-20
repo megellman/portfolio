@@ -87,7 +87,11 @@ nav a {
     text-decoration: none;
     color: black;
     font-size: 3em;
-    opacity: 80%;
+    opacity: 70%;
+}
+
+nav a:hover {
+    opacity: 100%;
 }
 
 /* main section  */
