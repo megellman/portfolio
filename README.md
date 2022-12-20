@@ -14,8 +14,6 @@
 
 I created a professional portfolio webpage. On this page is a description about me, examples of my work, and information on how to contact me. I created this webpage to show future employers my work and to practice media responsive layouts. 
 
-Gif of site
-
 ## Table of Contents 
 * [Code Examples](#code-examples)
 * [Usage](#usage)
@@ -24,12 +22,26 @@ Gif of site
 * [Credits](#credits)
 * [License](#license)
 
-## Code Examples
-
-## Usage
-
 ## Learning Points
+In doing this project, I learned how to create and customize the design of a scrollbar using CSS. This makes it much easier for users to interact with my webpage.
 
+```
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #c4adaa;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #a89897;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #928988;
+}
+```
 ## Author Info
 
 ### Megan Ellman
@@ -38,6 +50,10 @@ Gif of site
 [GitHub](https://github.com/megellman)
 ## Credits 
 
+|Resource | Link |
+|-------|:-------:|
+|Scrollbar | https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp |
+|      |    |
 ## License
 MIT License
 
