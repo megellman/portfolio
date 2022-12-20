@@ -1,9 +1,11 @@
+/* color palette */
 :root {
     --white: #F7EDE2;
     --light-pink: #F6DCD3;
     --lighter-dark: #d6bebb;
 }
 
+/* scrollbar */
 ::-webkit-scrollbar {
     width: 20px;
 }
@@ -139,7 +141,7 @@ main img:hover {
     width: 93%;
 }
 
-
+/* media responsiveness */
 @media screen and (min-width: 900px) {
     img {margin-bottom: 20px;}
 }
