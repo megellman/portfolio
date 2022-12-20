@@ -121,6 +121,12 @@ footer a {
     padding-top: 35px;
 }
 
+/* panel changes when hovering */
+img:hover {
+    width: 93%;
+}
+
+
 @media screen and (min-width: 900px) {
     img {margin-bottom: 20px;}
 }
@@ -132,7 +138,6 @@ footer a {
     img {min-width: 381px; max-width: 381px;}
     .links {display: flex; flex-direction: column; justify-content: center;}
     nav a {font-size: 2.2em; line-height: 3em;}
-    #project3 {margin-top: -70px;}
     footer a {font-size: 2em; display: block; line-height: 120px;}
     /* top/bottom margins zero */
     #about-me h2 {margin-bottom: 0;}
@@ -145,5 +150,5 @@ footer a {
 
     /* reassign colors  */
     #project1, #project3 {background-color: transparent;}
-    #project2, #project4 {background-color: var(--light-pink);}
+    #project2, #project4, #my-work {background-color: var(--light-pink);}
 }
