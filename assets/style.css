@@ -135,7 +135,7 @@ footer a {
 }
 
 /* panel changes when hovering */
-img:hover {
+main img:hover {
     width: 93%;
 }
 
