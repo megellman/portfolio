@@ -147,6 +147,7 @@ img:hover {
     .links, .block {margin-bottom: -27px;}
     #cover-image {margin-top: -20px; margin-bottom: 0px;}
     h2 {padding-top: 10px;}
+    #my-work {padding-bottom: 20px;}
 
     /* reassign colors  */
     #project1, #project3 {background-color: transparent;}
