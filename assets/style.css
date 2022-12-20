@@ -131,6 +131,10 @@ footer a {
     opacity: 80%;
 }
 
+footer a:hover {
+    opacity: 100%;
+}
+
 #about-me h2,
 #contact-info h2 {
     padding-top: 35px;
