@@ -9,12 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Sans+Pro:wght@200;300;400;700;900&display=swap"
-        rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inconsolata:wght@200;300;600&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,100;1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300&family=Yeseva+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -28,13 +23,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active link-light" aria-current="page" href="#about-me">About Me</a>
+                        <a class="nav-link active" style="color: black;" aria-current="page" href="#about-me">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link-light" href="#my-work">My Work</a>
+                        <a class="nav-link" style="color: black;" href="#my-work">My Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link-light" href="#contact-info">Contact Me</a>
+                        <a class="nav-link" style="color: black;" href="#contact-info">Contact Me</a>
                     </li>
                 </ul>
             </div>
@@ -43,12 +38,12 @@
     <main>
         <div class="container mt-4">
             <div class="row mb-lg-5 mb-md-3" id="cover-image">
-                <div class="col">
+                <div class="col col-12 col-lg-6" id="headshot-container">
                     <img id="headshot" src="assets/headshot-white.png" alt="Megan Ellman Headshot">
                 </div>
-                <div class="col mt-lg-0 mt-sm-4">
+                <div id="about-me" class="col mt-lg-0 mt-sm-4">
                     <h2>About Me</h2>
-                    <div class="mt-lg-3">
+                    <div id="about-me-content" class="mt-lg-3">
                         <p>Megan Ellman holds an Undergraduate Degree in Communications and Minor in Community
                             Engagement
                             Writing
@@ -78,7 +73,7 @@
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
                     </div>
-                    <div class="carousel-inner">
+                    <div id="my-work" class="carousel-inner">
                         <div class="carousel-item active">
                             <a href="https://megellman.github.io/refactoring-mockup-accessibility/" target="_blank">
                                 <img src="./assets/refactoring.png" class="d-block w-100" alt="...">
@@ -118,11 +113,11 @@
             </div>
         </div>
     </main>
-    <div id="contact-info" class="row pt-lg-3 p-2">
+    <div id="contact-info" class="row pt-lg-3 p-3">
         <h2 class="col-sm-4">Contact Me</h2>
-        <a class="col-sm-4 link-light" style="text-decoration: none;" href="https://www.linkedin.com/in/megan-ellman/"
+        <a class="col-sm-4 p-1" style="text-decoration: none; color: black;" href="https://www.linkedin.com/in/megan-ellman/"
             target="_blank">LinkedIn</a>
-        <a class="col-sm-4 link-light" style="text-decoration: none;" href="https://github.com/megellman" target="_blank">GitHub</a>
+        <a class="col-sm-4 p-1" style="text-decoration: none; color: black;" href="https://github.com/megellman" target="_blank">GitHub</a>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
