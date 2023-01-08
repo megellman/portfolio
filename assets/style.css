@@ -3,10 +3,13 @@
    --yellow: #42868A;
    --dark: #73498a;
    --light: #f5f3f6;
+   --header: 'Abril Fatface', cursive;
+   --body: 'Poppins', sans-serif;
 }
 
 body {
     background-color: var(--light);
+    font-family: var(--body);
 }
 
 .navbar{
@@ -17,6 +20,12 @@ body {
 #headshot{
     border: 2px solid var(--yellow);
     border-radius: 3px;
+}
+h1,
+h2,
+h3{
+    font-size: 2.5em;
+    font-family: var(--header);
 }
 
 .carousel-item img{
