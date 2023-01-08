@@ -8,7 +8,7 @@
     <title>Megan Ellman Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css">
+    <!-- <link rel="stylesheet" href="assets/style.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,18 +16,34 @@
         rel="stylesheet">
 </head>
 
-<body>
-    <header class="flex-container">
+<body class="bg-dark">
+    <header class="container-lg">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#my-work">My Work</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#contact-info">Contact Me</a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </nav>
+
         <section class="block" id="cover-image">
             <h1>Megan Ellman</h1>
             <img id="headshot" src="assets/headshot-white.png" alt="Megan Ellman Headshot">
-        </section>
-        <section class="links block">
-            <nav>
-                <a href="#about-me">About Me</a>
-                <a href="#my-work">My Work</a>
-                <a href="#contact-info">Contact Me</a>
-            </nav>
         </section>
     </header>
     <main>
@@ -43,32 +59,48 @@
             <p>When she is not writing code, Megan loves ocean swimming, hiking, or taking her dog Molly to the park.
             </p>
         </section>
-        <section id="my-work">
-            <h2>Refactoring Mockup Accessibility</h2>
-            <a href="https://megellman.github.io/refactoring-mockup-accessibility/" target="_blank"><img
-                    src="assets/refactoring-mockup-accessibility.png"></a>
-        </section>
-        <section class="flex-container">
-            <section class="block" id="project1">
-                <h2>CSS Snippet Cheat Sheet</h2>
-                <a href="https://megellman.github.io/css-snippet-cheat-sheet/" target="_blank"><img
-                        src="assets/css-snippet-cheat-sheet.png"></a>
-            </section>
-            <section class="block" id="project2">
-                <h2>Project 2</h2>
-                <img src="assets/filler-image2.jpg">
-            </section>
-        </section>
-        <section class="flex-container">
-            <section class="block" id="project3">
-                <h2>Project 3</h2>
-                <img src="assets/filler-image3.jpg">
-            </section>
-            <section class="block" id="project4">
-                <h2>Project 4</h2>
-                <img src="assets/filler-image1.jpg">
-            </section>
-        </section>
+        <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://megellman.github.io/refactoring-mockup-accessibility/" target="_blank">
+                <img src="assets/refactoring-mockup-accessibility.png" class="d-block w-100" alt="...">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Refactoring Mockup Accessibility</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <a href="https://megellman.github.io/css-snippet-cheat-sheet/" target="_blank">
+                <img src="assets/css-snippet-cheat-sheet.png" class="d-block w-100" alt="...">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>CSS Snippet Cheat Sheet</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="assets/filler-image2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Project 3</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </main>
     <footer id="contact-info">
         <section class="block">
@@ -81,4 +113,5 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 </body>
+
 </html>
