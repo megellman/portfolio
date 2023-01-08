@@ -8,7 +8,7 @@
     <title>Megan Ellman Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" href="assets/style.css"> -->
+    <link rel="stylesheet" href="assets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,98 +16,113 @@
         rel="stylesheet">
 </head>
 
-<body class="bg-dark">
-    <header class="container-lg">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#my-work">My Work</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#contact-info">Contact Me</a>
-                        </li>
-                      </ul>
-                </div>
+<body>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <h2 class="navbar-brand">Megan Ellman</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">☰</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active link-light" aria-current="page" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light" href="#my-work">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-light" href="#contact-info">Contact Me</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-
-        <section class="block" id="cover-image">
-            <h1>Megan Ellman</h1>
-            <img id="headshot" src="assets/headshot-white.png" alt="Megan Ellman Headshot">
-        </section>
-    </header>
+        </div>
+    </nav>
     <main>
-        <!-- My Projects -->
-        <section class="block" id="about-me">
-            <h2>About Me</h2>
-            <p>Megan Ellman holds an Undergraduate Degree in Communications and Minor in Community Engagement Writing
-                from the University of California, Santa Barbara. For the past two years, she worked as an Onboarding
-                Coordinator for ClickUp, a productivity platform.</p>
-            <p>It was here that she developed a passion for coding and web development. Currently, she is enrolled in
-                the Full Stack Flex Bootcamp at the University of California, Berkeley where she is learning HTML, CSS,
-                and JavaScript.</p>
-            <p>When she is not writing code, Megan loves ocean swimming, hiking, or taking her dog Molly to the park.
-            </p>
-        </section>
-        <div id="carouselExampleCaptions" class="carousel slide mx-auto border border-light border-3 rounded" style="width: 75%;" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div class="container mt-4">
+            <div class="row mb-lg-5 mb-md-3" id="cover-image">
+                <div class="col">
+                    <img id="headshot" src="assets/headshot-white.png" alt="Megan Ellman Headshot">
+                </div>
+                <div class="col mt-lg-0 mt-sm-4">
+                    <h2>About Me</h2>
+                    <div class="mt-lg-3">
+                        <p>Megan Ellman holds an Undergraduate Degree in Communications and Minor in Community
+                            Engagement
+                            Writing
+                            from the University of California, Santa Barbara. For the past two years, she worked as an
+                            Onboarding
+                            Coordinator for ClickUp, a productivity platform.</p>
+                        <p>It was here that she developed a passion for coding and web development. Currently, she is
+                            enrolled in
+                            the Full Stack Flex Bootcamp at the University of California, Berkeley where she is learning
+                            HTML, CSS,
+                            and JavaScript.</p>
+                        <p>When she is not writing code, Megan loves ocean swimming, hiking, or taking her dog Molly to
+                            the
+                            park.
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <a href="https://megellman.github.io/refactoring-mockup-accessibility/" target="_blank">
-                <img src="./assets/refactoring.png" class="d-block w-100" alt="...">
-                </a>
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Refactoring Mockup Accessibility</h5>
+            <div class="row">
+                <h2 class="mb-md-2">My Work</h2>
+                <div id="carouselExampleCaptions" class="carousel slide mx-auto" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="https://megellman.github.io/refactoring-mockup-accessibility/" target="_blank">
+                                <img src="./assets/refactoring.png" class="d-block w-100" alt="...">
+                            </a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Refactoring Mockup Accessibility</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://megellman.github.io/css-snippet-cheat-sheet/" target="_blank">
+                                <img src="./assets/css-snippet.png" class="d-block w-100" alt="...">
+                            </a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>CSS Snippet Cheat Sheet</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://megellman.github.io/code-quiz/" target="_blank">
+                                <img src="./assets/code-quiz-screenshot.png" class="d-block w-100" alt="...">
+                            </a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Code Quiz</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <a href="https://megellman.github.io/css-snippet-cheat-sheet/" target="_blank">
-                <img src="./assets/css-snippet.png" class="d-block w-100" alt="...">
-                </a>
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>CSS Snippet Cheat Sheet</h5>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <a href="https://megellman.github.io/code-quiz/" target="_blank">
-                <img src="./assets/code-quiz-screenshot.png" class="d-block w-100" alt="...">                    
-                </a>
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Code Quiz</h5>
-                </div>
-              </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+        </div>
     </main>
-    <footer id="contact-info">
-        <section class="block">
-            <h2>Contact Me</h2>
-            <a href="https://www.linkedin.com/in/megan-ellman/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/megellman" target="_blank">GitHub</a>
-        </section>
-    </footer>
+    <div id="contact-info" class="row pt-lg-3 p-2">
+        <h2 class="col-sm-4">Contact Me</h2>
+        <a class="col-sm-4 link-light" style="text-decoration: none;" href="https://www.linkedin.com/in/megan-ellman/"
+            target="_blank">LinkedIn</a>
+        <a class="col-sm-4 link-light" style="text-decoration: none;" href="https://github.com/megellman" target="_blank">GitHub</a>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
