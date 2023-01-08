@@ -1,22 +1,58 @@
 /* color palette */
 :root {
-   --yellow: #42868A;
-   --dark: #73498a;
-   --light: #f5f3f6;
+   --yellow: #20201e;
+   --dark: #f1f1eb;
+   --light: #6cbda7;
+   --body: 'Josefin Sans', sans-serif;
+   --header: 'Yeseva One', cursive;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-nav{
+    background-color: var(--dark);
+    width: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: -10px;
 }
 
 body {
     background-color: var(--light);
+    font-family: var(--body);
 }
 
 .navbar{
     background-color: var(--dark);
-    color: white;
+    border-radius: 40px;
+    margin: 10px 5px;
+    height: 60px;
+    font-size: 2em;
 }
 
 #headshot{
-    border: 2px solid var(--yellow);
+    border: 3px solid var(--yellow);
     border-radius: 3px;
+    width: 470px;
+}
+#headshot-container{
+    align-self: center;
+    justify-self: stretch;
+}
+
+h1,
+h2,
+h3{
+    font-size: 2.5em;
+    font-family: var(--header);
+    font-weight: 600;
 }
 
 .carousel-item img{
@@ -25,7 +61,6 @@ body {
 }
 
 span{
-    color: white;
     font-size: 1.5em;
 }
 
@@ -33,12 +68,20 @@ span{
     background-color: var(--dark);
     font-size: 1.2em;
     text-align: center;
-    margin-top: 11px;
-    color: white;
+    height: 60px;
+    margin: 10px 5px;
+    border-radius: 40px;
 }
 
 #contact-info h2{
-    font-size: 1em;
+    font-size: 1.5em;
+}
+
+@media screen and (min-width: 1300px) {
+    #about-me-content {font-size: 1.5em;}  
+    .navbar-brand {font-size: 1.1em;}  
+    h2 {font-size: 3.2em;}
+    #headshot {width: 540px;}
 }
 /* scrollbar
 ::-webkit-scrollbar {
