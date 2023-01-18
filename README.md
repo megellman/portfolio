@@ -2,29 +2,35 @@
 
 ## Technology Used
 
-| Technology Used         | Resource URL           | 
-| ------------- |:-------------:| 
-| HTML    | [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) | 
-| CSS     | [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)      |   
-| Git | [https://git-scm.com/](https://git-scm.com/)     |  
+| Technology Used |                                              Resource URL                                              |
+| --------------- | :----------------------------------------------------------------------------------------------------: |
+| HTML            | [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) |
+| CSS             |  [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)  |
+| Git             |                              [https://git-scm.com/](https://git-scm.com)                               |
+| Bootstrap       |            [bootstrap.com](https://getbootstrap.com/docs/5.3/getting-started/introduction/)            |
 
 ## Description
 
-[Click here for Deployed Site](https://megellman.github.io/portfolio/)
+[Click here for deployed site](https://megellman.github.io/portfolio/)
 
-![](assets/portfolio-preview.gif)
+![](./assets/portfolio-snapshot_AdobeExpress.gif)
 
-I created a professional portfolio webpage. On this page is a description about me, examples of my work, and information on how to contact me. I created this webpage to show future employers my work and to practice media responsive layouts. 
+I created a professional portfolio webpage. On this page is a description about me, examples of my work, and information on how to contact me. I created this webpage to show future employers my work and to practice media responsive layouts.
 
-## Table of Contents 
-* [Code Examples](#code-examples)
-* [Usage](#usage)
-* [Learning Points](#learning-points)
-* [Author Info](#author-info)
-* [Credits](#credits)
-* [License](#license)
+## Table of Contents
+
+- [Portfolio](#portfolio)
+  - [Technology Used](#technology-used)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Learning Points](#learning-points)
+  - [Author Info](#author-info)
+    - [Megan Ellman](#megan-ellman)
+  - [Credits](#credits)
+  - [License](#license)
 
 ## Learning Points
+
 In doing this project, I learned how to create and customize the design of a scrollbar using CSS. This makes it much easier for users to interact with my webpage.
 
 ```
@@ -44,22 +50,38 @@ In doing this project, I learned how to create and customize the design of a scr
     background-color: #928988;
 }
 ```
+
+```
+<div class="carousel-item">
+    <a href="https://megellman.github.io/css-snippet-cheat-sheet/" target="_blank">
+        <img src="./assets/css-snippet.png" class="d-block w-100" alt="...">
+    </a>
+    <div class="carousel-caption d-none d-md-block">
+        <h5>CSS Snippet Cheat Sheet</h5>
+    </div>
+</div>
+```
+
 ## Author Info
 
 ### Megan Ellman
+
 [LinkedIn](https://www.linkedin.com/in/megan-ellman/)
 
 [GitHub](https://github.com/megellman)
-## Credits 
 
-|Resource | Link |
-|-------|:-------:|
-|Scrollbar | https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp |
-|      |    |
+## Credits
+
+| Resource  |                                        Link                                        |
+| --------- | :--------------------------------------------------------------------------------: |
+| Scrollbar |  [w3schools.com](https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp)   |
+| Navbar    | [bootstrap.com](https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works) |
+
 ## License
+
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2022] [Megan Ellman]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
