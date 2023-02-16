@@ -20,14 +20,13 @@ I created a professional portfolio webpage. On this page is a description about 
 ## Table of Contents
 
 - [Portfolio](#portfolio)
-  - [Technology Used](#technology-used)
-  - [Description](#description)
-  - [Table of Contents](#table-of-contents)
-  - [Learning Points](#learning-points)
-  - [Author Info](#author-info)
-    - [Megan Ellman](#megan-ellman)
-  - [Credits](#credits)
-  - [License](#license)
+- [Technology Used](#technology-used)
+- [Description](#description)
+- [Table of Contents](#table-of-contents)
+- [Learning Points](#learning-points)
+- [Author Info](#author-info)
+- [Credits](#credits)
+- [License](#license)
 
 ## Learning Points
 
